@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package implement_Login;
+package server_Login;
 
 /**
  *
@@ -12,7 +12,7 @@ package implement_Login;
 
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
-import rmi_login.interface_Login.LoginInterface;
+import rmi_login.LoginInterface;
 
 public class LoginImplement extends UnicastRemoteObject implements LoginInterface {
 

@@ -8,7 +8,6 @@ package rmi_login;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import javax.swing.JOptionPane;
-import rmi_login.interface_Login.LoginInterface;
 
 /**
  *

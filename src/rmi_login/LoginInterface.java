@@ -9,13 +9,9 @@ package rmi_login;
  *
  * @author Daniel
  */
-public class RMI_Login {
+import java.rmi.*;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public interface LoginInterface extends Remote {
     
+    public boolean getLogin(String user, String pass) throws RemoteException;
 }

@@ -10,7 +10,6 @@ package server_Login;
  * @author Daniel
  */
 
-import implement_Login.LoginImplement;
 import java.rmi.*;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
